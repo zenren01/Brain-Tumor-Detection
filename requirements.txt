@@ -23,7 +23,7 @@ MarkupSafe==3.0.2
 mdurl==0.1.2
 ml-dtypes==0.4.1
 namex==0.0.8
-numpy==1.24
+numpy>=1.23
 opencv-python==4.8.0.76
 opt_einsum==3.4.0
 optree==0.13.1
