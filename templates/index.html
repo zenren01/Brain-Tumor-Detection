@@ -1,0 +1,26 @@
+{% extends "import.html" %} 
+{% block content %}
+
+<div class="container text-center mt-5">
+    <h2 class="title">Brain Tumor Classification Using Deep Learning</h2>
+    <p class="subtitle">Upload an MRI image to check for brain tumor presence.</p>
+
+    <form id="upload-file" method="post" enctype="multipart/form-data" class="form-upload">
+        <input type="file" name="file" class="btn btn-outline-primary mb-4" id="imageUpload" accept=".png, .jpg, .jpeg" required>
+    </form>
+
+    <div class="image-section" style="display: none;">
+        <img id="imagePreview" class="img-preview" src="#" alt="Uploaded Image Preview">
+        <div class="btn-container">
+            <button type="button" class="btn btn-primary" id="btn-predict">Predict!</button>
+        </div>
+    </div>
+
+    <div class="loader mt-4" style="display: none;"></div>
+
+    <div id="result" class="result mt-4">
+        <h3><span></span></h3>
+    </div>
+</div>
+
+{% endblock %}
