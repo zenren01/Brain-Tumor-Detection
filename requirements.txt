@@ -24,7 +24,7 @@ mdurl==0.1.2
 ml-dtypes==0.4.1
 namex==0.0.8
 numpy==1.21.0
-opencv-python==4.5.3
+opencv-python==4.8.0.76
 opt_einsum==3.4.0
 optree==0.13.1
 packaging==24.2
